@@ -84,6 +84,8 @@ li:last-child {
     position: absolute;
     background: #fff;
     display: none;
+    text-decoration: none;
+    list-style: none;
 }
 
 .submenu li {
@@ -124,6 +126,16 @@ li:hover>ul {
 
 .ofertas {
     width: 250px;
+}
+
+.mapa {
+    border: 1px solid #6c6465;
+    width: 650px;
+    height: 350px;
+    -moz-box-shadow: 1px 2px 5px #000000;
+    -webkit-box-shadow: 1px 2px 5px #000000;
+    box-shadow: 1px 2px 5px #000000;
+    ;
 }
 
 .piePag {
