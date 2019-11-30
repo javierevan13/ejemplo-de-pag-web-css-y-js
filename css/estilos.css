@@ -51,3 +51,47 @@ body {
     width: 33%;
     float: left;
 }
+
+.columna {
+    width: 30%;
+    float: right;
+    margin: 20px 0 0 20px;
+    /*margin-left: 20px;
+    margin-top: 20px;*/
+}
+
+.columna article {
+    width: 50%;
+    margin-bottom: 50px;
+    border-bottom: dotted 1px #5e5c5c;
+    padding-bottom: 20px;
+}
+
+.seccion {
+    padding: 20px;
+}
+
+.seccion h2 {
+    font-size: 1.em;
+    margin-bottom: 1em;
+}
+
+.seccion p {
+    line-height: 1.5em;
+}
+
+.ofertas {
+    width: 250px;
+}
+
+.piePag {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.piePag p {
+    font-size: 0.7em;
+    color: #645f69;
+}
