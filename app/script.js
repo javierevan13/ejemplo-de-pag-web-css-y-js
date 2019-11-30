@@ -1,7 +1,7 @@
 window.onload = cambiar;
 
 function cambiar() {
-    var urlActual = window.location;
+    /*var urlActual = window.location;
     var links = ['index', 'quienes-somos', "donde-estamos", "enlaces"];
     var i = 0;
     for (i = 0; i < links.length; i++) {
@@ -10,9 +10,12 @@ function cambiar() {
         if (urlActual == urlTemp) {
             lista[i].className += "actual";
         }
-    }
+    }*/
+    var lis = document.getElementById("menu").getElementsByTagName("li");
+    lis[0].className += "actual";
+    console.log("bla bla " + lis.length);
 }
 
-/*+            var lis = document.getElementById("menu").getElementsByTagName("li");
+/*+           var lis = document.getElementById("menu").getElementsByTagName("li");
 +            lis[i].className += "actual";
 +            break */
