@@ -34,6 +34,9 @@ body {
     margin: 110px 50px 0 0;
 }
 
+
+/*  Menú    */
+
 .navegacion {
     width: 100%;
     clear: both;
@@ -70,6 +73,27 @@ li.actual {
 
 li:last-child {
     border-right: none;
+}
+
+
+/*  submenu     */
+
+.submenu {
+    width: 250px;
+    margin-top: 11px;
+    position: absolute;
+    background: #fff;
+    display: none;
+}
+
+.submenu li {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    background: #a17d17;
+}
+
+li:hover>ul {
+    display: block;
 }
 
 .columna {

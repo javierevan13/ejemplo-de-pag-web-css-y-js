@@ -5,12 +5,14 @@ function cambiar() {
     var links = ['index', 'quienes-somos', "donde-estamos", "enlaces"];
     var i = 0;
     for (i = 0; i < links.length; i++) {
-        var temporal = "http://127.0.0.1:5500/" + links[i] + ".html"
-        if (urlActual == temporal) {
-            var lis = document.getElementById("menu").getElementsByTagName("li");
-            lis[i].className += "actual";
-            break
+        var urlTemp = "http://127.0.0.1:5500/" + links[i] + ".html";
+        var lista = document.getElementById("menu").children;
+        if (urlActual == urlTemp) {
+            lista[i].className += "actual";
         }
     }
-
 }
+
+/*+            var lis = document.getElementById("menu").getElementsByTagName("li");
++            lis[i].className += "actual";
++            break */
