@@ -37,27 +37,45 @@ body {
 .navegacion {
     width: 100%;
     clear: both;
-    padding: 10px;
+    padding: 10px 0;
+    margin-bottom: 50px;
 }
 
 .menu {
     width: 100%;
     list-style: none;
-    margin-bottom: 30px;
 }
 
 .menu li {
     text-align: center;
     width: 25%;
     float: left;
+    background: #c2b114;
+    padding: 10px 0;
+    border-right: #fff solid;
+    box-sizing: border-box;
+}
+
+.menu a:link,
+.menu a:visited {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.menu li:hover,
+li.actual {
+    background: #6b5808;
+}
+
+li:last-child {
+    border-right: none;
 }
 
 .columna {
     width: 30%;
     float: right;
     margin: 20px 0 0 20px;
-    /*margin-left: 20px;
-    margin-top: 20px;*/
 }
 
 .columna article {
